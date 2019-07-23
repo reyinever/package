@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="这是我自己的测试套件">
+    <test name="这些是测试模块">
+        <classes>
+            <class name="com.tester.extent.demo.TestDemo1">
+                <!--
+                这个里面还可以写测试方法
+                -->
+                <methods>
+                    <include name="test1"></include>
+                    <include name="test2"></include>
+                    <include name="test3"></include>
+                    <include name="logDemo"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 需要一个监听器来收集执行过程中的数据 -->
+    <listeners>
+        <!--
+        <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"></listener>
+        <listener class-name="com.tester.extent.demo.ExtentTestNGIReporterListenerOld"></listener>
+        -->
+        <listener class-name="com.tester.extent.demo.ExtentTestNGIReporterListener"></listener>
+
+    </listeners>
+</suite>
