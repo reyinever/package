@@ -6,15 +6,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="InterfaceTest1" />
+        <module name="InterfaceMybatis_mysql" />
         <module name="InterfaceTestHttpClient" />
+        <module name="InterfaceSpringBoot" />
+        <module name="InterfaceMybatis" />
         <module name="InterfaceTest" />
+        <module name="InterfaceMybatis_testng" />
+        <module name="InterfaceTest1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="InterfaceMybatis" target="1.8" />
+      <module name="InterfaceMybatis_mysql" target="1.5" />
+      <module name="InterfaceMybatis_testng" target="8" />
+      <module name="InterfaceSpringBoot" target="1.8" />
       <module name="InterfaceTest" target="1.5" />
       <module name="InterfaceTest1" target="1.5" />
       <module name="InterfaceTestHttpClient" target="1.5" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="InterfaceMybatis" options="-parameters" />
+      <module name="InterfaceSpringBoot" options="-parameters" />
+    </option>
   </component>
 </project>

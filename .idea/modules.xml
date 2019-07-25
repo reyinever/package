@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/InterfaceMybatis/InterfaceMybatis.iml" filepath="$PROJECT_DIR$/InterfaceMybatis/InterfaceMybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InterfaceMybatis_mysql/InterfaceMybatis_mysql.iml" filepath="$PROJECT_DIR$/InterfaceMybatis_mysql/InterfaceMybatis_mysql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InterfaceMybatis_testng/InterfaceMybatis_testng.iml" filepath="$PROJECT_DIR$/InterfaceMybatis_testng/InterfaceMybatis_testng.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InterfaceSpringBoot/InterfaceSpringBoot.iml" filepath="$PROJECT_DIR$/InterfaceSpringBoot/InterfaceSpringBoot.iml" />
       <module fileurl="file://$PROJECT_DIR$/InterfaceTest/InterfaceTest.iml" filepath="$PROJECT_DIR$/InterfaceTest/InterfaceTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/InterfaceTest1/InterfaceTest1.iml" filepath="$PROJECT_DIR$/InterfaceTest1/InterfaceTest1.iml" />
       <module fileurl="file://$PROJECT_DIR$/InterfaceTestHttpClient/InterfaceTestHttpClient.iml" filepath="$PROJECT_DIR$/InterfaceTestHttpClient/InterfaceTestHttpClient.iml" />

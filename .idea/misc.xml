@@ -9,6 +9,10 @@
         <option value="$PROJECT_DIR$/interfaceTest/pom.xml" />
         <option value="$PROJECT_DIR$/InterfaceTest1/pom.xml" />
         <option value="$PROJECT_DIR$/InterfaceTestHttpClient/pom.xml" />
+        <option value="$PROJECT_DIR$/InterfaceSpringBoot/pom.xml" />
+        <option value="$PROJECT_DIR$/InterfaceMybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/InterfaceMybatis_mysql/pom.xml" />
+        <option value="$PROJECT_DIR$/InterfaceMybatis_testng/pom.xml" />
       </list>
     </option>
   </component>
